@@ -1,0 +1,23 @@
+*, html {
+  margin: 0;
+  padding: 0
+}
+
+.main-container {
+  position: relative;
+  margin: 50px auto;
+  background-color: red;
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;;
+}
+
+.etch-label {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  color: rgb(211, 179, 0);
+}
