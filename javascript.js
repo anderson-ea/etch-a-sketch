@@ -27,7 +27,7 @@ const changeSize = document.querySelector('#right-circle')
 changeSize.addEventListener("click", () => {
   clearBoard()
   
-  size ?  
+  !size ?  
     grid.style = 'grid-template-columns: repeat(30, 1fr); grid-template-rows: repeat(20, 1fr);' :
     grid.style = 'grid-template-columns: repeat(75, 1fr); grid-template-rows: repeat(50, 1fr);'
   
